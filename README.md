@@ -1,0 +1,483 @@
+CrossDrop dApp 
+User Documentation
+
+===
+
+  Table of Contents
+
+1. [Introduction]( introduction)
+2. [Getting Started]( getting-started)
+
+   * [Creating an Account]( creating-an-account)
+   * [Connecting Your Wallet]( connecting-your-wallet)
+   * [Understanding the Dashboard]( understanding-the-dashboard)
+
+3. [NFT Creation and Management]( nft-creation-and-management)
+
+   * [Creating Your First NFT]( creating-your-first-nft)
+   * [Managing Your NFT Collection]( managing-your-nft-collection)
+   * [Advanced NFT Features]( advanced-nft-features)
+
+4. [Cross-Chain Bridge]( cross-chain-bridge)
+
+   * [Understanding Cross-Chain Transfers]( understanding-cross-chain-transfers)
+   * [Transferring Assets Between Blockchains]( transferring-assets-between-blockchains)
+   * [Bridge Security Features]( bridge-security-features)
+
+5. [Staking]( staking)
+
+   * [Staking Pools Overview]( staking-pools-overview)
+   * [Staking Your Tokens]( staking-your-tokens)
+   * [Claiming Rewards]( claiming-rewards)
+
+6. [Wallet and Security]( wallet-and-security)
+
+   * [Securing Your Account]( securing-your-account)
+   * [Transaction Monitoring]( transaction-monitoring)
+   * [Recovery Options]( recovery-options)
+
+7. [Troubleshooting]( troubleshooting)
+
+   * [Common Issues]( common-issues)
+   * [Support Resources]( support-resources)
+
+8. [Glossary]( glossary)
+   
+
+  Introduction
+
+Welcome to CrossDrop, a next-generation platform for cross-chain NFT distribution built on the Qubetics blockchain. CrossDrop enables you to mint NFTs, stake tokens, and bridge assets across multiple blockchains with a seamless user experience.
+
+   Key Features
+
+*  Cross-Chain NFT Distribution : Create NFTs on Qubetics and distribute them across multiple blockchains including Ethereum, Polygon, BNB Chain, and more.
+*  Quantum-Resistant Security : Built with future-proof security features to protect your assets against quantum computing threats.
+*  Token Staking : Stake your CXD tokens in various pools to earn rewards and participate in governance.
+*  Cross-Chain Bridge : Transfer your assets seamlessly between supported blockchains with enhanced security measures.
+*  User-Friendly Interface : Intuitive design with dark/light mode support and responsive layout for all devices.
+
+   System Requirements
+
+*  Web Browser : Chrome (v90+), Firefox (v88+), Edge (v90+), or Safari (v14+)
+*  Wallet Extensions : MetaMask, WalletConnect, or Coinbase Wallet
+*  Internet Connection : Stable internet connection required
+*  Hardware : Any device capable of running modern web browsers
+  
+
+  Getting Started
+
+   Creating an Account
+
+CrossDrop uses Web3 authentication, which means you don't need to create a traditional username and password. Instead, you'll connect using your cryptocurrency wallet.
+
+1. Visit [crossdrop.io](https://crossdrop.io)
+2. Click on the "Connect Wallet" button in the top-right corner
+3. Choose your preferred wallet provider
+4. Follow the wallet-specific instructions to connect
+5. Once connected, your wallet address will serve as your identity on CrossDrop
+   
+
+   Connecting Your Wallet
+
+CrossDrop supports multiple wallet providers for your convenience:
+
+   MetaMask
+
+1. Click "Connect Wallet"
+2. Select "MetaMask" from the options
+3. If prompted, enter your MetaMask password
+4. Approve the connection request
+5. Select the account you wish to connect
+
+   WalletConnect
+
+1. Click "Connect Wallet"
+2. Select "WalletConnect" from the options
+3. Scan the QR code with your mobile wallet app
+4. Approve the connection request
+
+   Coinbase Wallet
+
+1. Click "Connect Wallet"
+2. Select "Coinbase Wallet" from the options
+3. If using the extension, approve the connection
+4. If using the mobile app, scan the QR code and approve
+   
+
+   Understanding the Dashboard
+
+After connecting your wallet, you'll be directed to the dashboard, which serves as your command center for all CrossDrop activities.
+
+   Dashboard Sections:
+
+1.  Portfolio Overview : Displays your token balances across different blockchains
+2.  NFT Gallery : Shows your created and collected NFTs
+3.  Staking Status : Shows your active stakes and earned rewards
+4.  Recent Transactions : Lists your recent activity on the platform
+5.  Bridge History : Shows your cross-chain transfer history
+
+   Navigation:
+
+*  Main Menu : Access all major features from the left sidebar (or top menu on mobile)
+*  Quick Actions : Create NFT, Stake Tokens, or Bridge Assets buttons for fast access
+*  Profile Settings : Access your profile and settings from the top-right corner
+*  Network Indicator : Shows your currently connected blockchain network
+  
+
+  NFT Creation and Management
+
+   Creating Your First NFT
+
+CrossDrop makes it easy to create and mint your own NFTs with our intuitive drag-and-drop interface.
+
+   Step-by-Step Guide:
+
+1. From the dashboard, click "Create NFT" or navigate to the NFT Studio from the main menu
+2. Choose between "Single NFT" or "Collection" (multiple NFTs)
+3. Upload your digital asset (image, video, audio, or 3D model)
+
+   * Supported formats: JPG, PNG, GIF, MP4, MP3, GLB
+   * Maximum file size: 100MB
+
+4. Fill in the NFT details:
+
+   * Name: Give your NFT a title
+   * Description: Describe your NFT
+   * External URL: (Optional) Link to additional content
+   * Attributes: Add traits and properties to your NFT
+
+5. Choose your royalty percentage (0-10%)
+6. Select which blockchains you want to distribute your NFT to
+7. Preview your NFT to ensure everything looks correct
+8. Click "Mint NFT" to create your NFT
+9. Approve the transaction in your wallet
+10. Wait for confirmation (this may take a few minutes depending on network congestion)
+
+   Tips for Successful NFT Creation:
+
+* Use high-quality images or media for better presentation
+* Write detailed descriptions to provide context for your NFT
+* Add relevant attributes to make your NFT discoverable in searches
+* Consider the gas fees on different blockchains when selecting distribution networks
+  
+
+   Managing Your NFT Collection
+
+After creating NFTs, you can manage them through the NFT Gallery section.
+
+   Viewing Your NFTs:
+
+1. Navigate to "My NFTs" in the main menu
+2. Toggle between "Created" and "Collected" to see different categories
+3. Click on any NFT to view its details
+
+   NFT Actions:
+
+*  Transfer : Send your NFT to another wallet address
+*  List for Sale : Set a price and list your NFT on the marketplace
+*  Update Metadata : Edit the description or attributes (if supported by the NFT)
+*  Burn : Permanently destroy the NFT (cannot be undone)
+  
+
+   Advanced NFT Features
+
+CrossDrop offers several advanced features for NFT creators:
+
+   Lazy Minting:
+
+Create NFT metadata without paying gas fees until the NFT is purchased.
+
+1. Select "Lazy Mint" when creating your NFT
+2. Complete the NFT details as normal
+3. The NFT will be visible in the marketplace but won't be minted on-chain until purchased
+
+   Unlockable Content:
+
+Add private content that only the NFT owner can access.
+
+1. Enable "Unlockable Content" when creating your NFT
+2. Add the content or links you want to make available to the owner
+3. This content will only be visible to the current owner of the NFT
+
+   Royalties:
+
+Earn a percentage of secondary sales when your NFTs change hands.
+
+1. Set your royalty percentage when creating your NFT (0-10%)
+2. Whenever your NFT is resold, you'll automatically receive the specified percentage
+   
+
+  Cross-Chain Bridge
+
+   Understanding Cross-Chain Transfers
+
+The CrossDrop Bridge allows you to transfer assets between different blockchains securely and efficiently.
+
+   Supported Blockchains:
+
+* Qubetics (native)
+* Ethereum
+* Polygon
+* BNB Chain
+* Avalanche
+* Solana (coming soon)
+
+   Supported Assets:
+
+* CXD Token (native token)
+* TICS (Qubetics gas token)
+* ETH
+* MATIC
+* BNB
+* AVAX
+* Popular ERC-20 tokens
+  
+
+   Transferring Assets Between Blockchains
+
+   Step-by-Step Guide:
+
+1. Navigate to the "Bridge" section from the main menu
+2. Select the source blockchain (where your assets currently are)
+3. Select the destination blockchain (where you want to send your assets)
+4. Choose the asset you want to transfer
+5. Enter the amount you want to transfer
+6. Review the estimated fees and transfer time
+7. Click "Review Transfer" to see a summary
+8. Confirm the details and click "Transfer"
+9. Approve the transaction in your wallet
+10. Wait for the transfer to complete (this may take 5-30 minutes depending on the blockchains involved)
+
+   Bridge Fees:
+
+Bridge fees consist of two components:
+
+1.  Network Fees : Gas fees on both the source and destination blockchains
+2.  Bridge Fee : A small fee to cover the operational costs of the bridge (0.1-0.5% depending on the asset and chains)
+   
+
+   Bridge Security Features
+
+CrossDrop's bridge incorporates several security features to protect your assets:
+
+   Transaction Simulation:
+
+Before executing a transfer, the system simulates the transaction to ensure it will succeed, preventing failed transactions and wasted gas fees.
+
+   Slippage Protection:
+
+Set a maximum acceptable price change to protect against market volatility during the transfer process.
+
+   Rate Limiting:
+
+Limits are placed on the frequency and volume of transfers to protect against potential attacks.
+
+   Multi-Layer Verification:
+
+Each transaction is verified through multiple independent validators before being executed.
+
+   Quantum-Resistant Cryptography:
+
+Advanced encryption methods protect against future quantum computing threats.
+
+
+  Staking
+
+   Staking Pools Overview
+
+CrossDrop offers multiple staking pools with different lock periods, APY rates, and benefits.
+
+   Available Pools:
+
+1.  Bronze Pool :
+
+   * Lock Period: 30 days
+   * APY: 5%
+   * Minimum Stake: 100 CXD
+   * Benefits: Basic staking rewards
+
+2.  Silver Pool :
+
+   * Lock Period: 90 days
+   * APY: 8%
+   * Minimum Stake: 500 CXD
+   * Benefits: Enhanced staking rewards
+
+3.  Gold Pool :
+
+   * Lock Period: 180 days
+   * APY: 12%
+   * Minimum Stake: 1,000 CXD
+   * Benefits: Enhanced rewards + governance rights
+
+4.  Platinum Pool :
+
+   * Lock Period: 365 days
+   * APY: 18%
+   * Minimum Stake: 5,000 CXD
+   * Benefits: Maximum rewards + governance rights + exclusive NFT rewards
+     
+
+   Staking Your Tokens
+
+   Step-by-Step Guide:
+
+1. Navigate to the "Staking" section from the main menu
+2. Review the available staking pools and their details
+3. Select the pool you want to stake in
+4. Enter the amount of CXD tokens you want to stake
+5. Use the calculator to see potential rewards
+6. Click "Stake Tokens"
+7. Review the details, including lock period and early withdrawal penalties
+8. Confirm and approve the transaction in your wallet
+9. Your tokens will now be staked and start earning rewards
+
+   Compound Interest:
+
+Enable automatic compounding to reinvest your rewards and maximize returns.
+
+1. Toggle "Enable Compounding" when staking
+2. Choose your compounding frequency (daily, weekly, or monthly)
+3. The system will automatically reinvest your rewards at the specified intervals
+   
+
+   Claiming Rewards
+
+You can claim your staking rewards at any time, even during the lock period.
+
+   To Claim Rewards:
+
+1. Navigate to the "Staking" section
+2. Find your active stake in the "My Stakes" table
+3. Click "Claim Rewards"
+4. Approve the transaction in your wallet
+5. Your rewards will be transferred to your wallet
+
+   Early Withdrawal:
+
+If you need to withdraw your tokens before the lock period ends, you can do so with a penalty.
+
+1. Navigate to the "Staking" section
+2. Find your active stake in the "My Stakes" table
+3. Click "Withdraw"
+4. Review the early withdrawal penalty (varies by pool and remaining lock time)
+5. Confirm if you wish to proceed
+6. Approve the transaction in your wallet
+   
+
+  Wallet and Security
+
+   Securing Your Account
+
+Protecting your assets is crucial in the blockchain space. Follow these best practices:
+
+   Wallet Security:
+
+* Use a hardware wallet for large holdings
+* Enable two-factor authentication if supported by your wallet
+* Never share your private keys or seed phrases with anyone
+* Be cautious of phishing attempts and always verify website URLs
+
+   Transaction Safety:
+
+* Always verify transaction details before signing
+* Use the transaction simulation feature to preview outcomes
+* Set reasonable gas prices to avoid overpaying
+* For large transactions, consider sending a small test amount first
+  
+
+   Transaction Monitoring
+
+CrossDrop provides tools to help you monitor your transactions:
+
+   Transaction History:
+
+1. Navigate to "Transactions" in the main menu
+2. View all your past transactions across different blockchains
+3. Filter by type, status, date, or blockchain
+4. Click on any transaction to see detailed information
+
+   Real-time Notifications:
+
+Enable notifications to stay informed about your transaction status:
+
+1. Go to "Settings" > "Notifications"
+2. Enable the types of notifications you want to receive:
+
+   * Transaction confirmations
+   * Staking rewards
+   * NFT sales
+   * Bridge transfers
+
+3. Choose your preferred notification methods (in-app, email, or browser)
+   
+
+   Recovery Options
+
+In case you lose access to your wallet, CrossDrop offers limited recovery options:
+
+   For NFTs and Digital Assets:
+
+* If you've enabled the backup feature, you can recover your NFT metadata
+* Contact support with proof of ownership for assistance
+
+   For Staked Tokens:
+
+* If you've lost access to your wallet, you'll need to regain access to recover staked tokens
+* There is no central authority that can recover your tokens without wallet access
+  
+
+  Troubleshooting
+
+   Common Issues
+
+   Wallet Connection Problems:
+
+ Issue : Unable to connect wallet
+ Solution :
+
+1. Ensure your wallet extension is up to date
+2. Try refreshing the page
+3. Clear browser cache and cookies
+4. Try using a different supported browser
+5. Check if your wallet is connected to the correct network
+
+   Transaction Failures:
+
+ Issue : Transaction fails or gets stuck
+ Solution :
+
+1. Check if you have enough native tokens for gas fees
+2. Verify that the network isn't congested
+3. Try increasing the gas price slightly
+4. For stuck transactions, use your wallet's "speed up" or "cancel" features
+5. Wait a few minutes and try again
+   
+
+   Support Resources
+
+If you encounter issues not covered in this documentation, you can get help through these channels:
+
+   Help Center:
+
+Browse our knowledge base at https://crossdrop.net/faqs.html
+
+   Community Support:
+
+Join our Telegram community for peer support: [https://t.me/+b9shKO3pioRkYjBh](https://discord.gg/crossdrop)
+
+
+  Glossary
+
+*  APY : Annual Percentage Yield - The real rate of return earned on an investment, taking into account the effect of compounding interest.
+*  Bridge : A protocol that enables the transfer of assets between different blockchain networks.
+*  CXD : CrossDrop Token - The native utility token of the CrossDrop platform.
+*  Gas Fee : The cost required to perform a transaction on the blockchain.
+*  Lazy Minting : Creating NFT metadata without immediately writing to the blockchain, deferring the gas cost until purchase.
+*  Mint : The process of creating a new NFT or token on the blockchain.
+*  NFT : Non-Fungible Token - A unique digital asset that represents ownership of a specific item or piece of content.
+*  Quantum-Resistant : Cryptographic systems that are secure against quantum computing attacks.
+*  Slippage : The difference between the expected price of a trade and the price at which the trade is executed.
+*  Staking : Locking up cryptocurrency to support network operations in exchange for rewards.
+*  TICS : The gas token used for transactions on the Qubetics blockchain.
+*  Wallet : A digital tool that allows users to store, send, and receive cryptocurrencies.
