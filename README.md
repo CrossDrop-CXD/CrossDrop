@@ -1,8 +1,6 @@
 CrossDrop dApp 
 User Documentation
 
-===
-
   Table of Contents
 
 1. [Introduction]( introduction)
