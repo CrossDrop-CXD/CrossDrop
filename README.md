@@ -68,7 +68,7 @@ Welcome to CrossDrop, a next-generation platform for cross-chain NFT distributio
 
 CrossDrop uses Web3 authentication, which means you don't need to create a traditional username and password. Instead, you'll connect using your cryptocurrency wallet.
 
-1. Visit [crossdrop.io](https://crossdrop.io)
+1. Visit [crossdrop.net](https://crossdrop.net)
 2. Click on the "Connect Wallet" button in the top-right corner
 3. Choose your preferred wallet provider
 4. Follow the wallet-specific instructions to connect
